@@ -18,7 +18,7 @@ I'm sorry. Even after i do my best, i'm still not enough to treat you right, it'
 """
 
 ISI_SURAT = """
-I'm sorry, i thought i managed to do it right, i thought i really get better, i really thought so. But still, i cant it 0% to ever happen again.
+I'm sorry, i thought i managed to do it right, i thought i really get better, i really thought so. But still, i cant make it 0% to ever happen again.
 
 I wont get defensive on myself. I really wanna be the best for you, not anybody else. It's just i always try my best even until now, to make everything set.
 
