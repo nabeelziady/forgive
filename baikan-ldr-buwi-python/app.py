@@ -30,12 +30,11 @@ PENUTUP_SURAT = """
 Aku ga berharap that this page would just fix everything or you forgive me after this.
 I just want you to know again, that i would never ever give up on us, As i said it thousand times.
 
-If you're ready, let's talk about it again, about how we should manage, how we should fix, and how we get better.
+If you're ready, let's talk about it again, about how we should manage, how we should fix, and how we could get better.
 
 Thank you for reading my words.
 With Love,
 Buyi ♡
-def
 """
 
 KENANGAN = [
