@@ -22,7 +22,8 @@ I'm sorry, i thought i managed to do it right, i thought i really get better, i 
 
 I wont get defensive on myself. I really wanna be the best for you, not anybody else. It's just i always try my best even until now, to make everything set.
 
-I really hope, that you'd stay with me. Choose me. Believe in me again. Thought i may be failed many times already. I know it's really tiring for you too, but trust me that it's tiring for me too. Yet[...]
+I really hope, that you'd stay with me. Choose me. Believe in me again. Thought i may be failed many times already. I know it's really tiring for you too, but trust me that it's tiring for me too.
+Yet, i still keep on trying and trying even though it's never easy. I'm sick of myself for hurting you lot of times.
 """
 
 PENUTUP_SURAT = """
