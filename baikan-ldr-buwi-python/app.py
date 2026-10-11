@@ -13,9 +13,8 @@ SUBJUDUL = "someone who i adore the most."
 
 PEMBUKA_SURAT = """
 Dear buwi,
-I made this little thing for you, not just because i only seek for your forgiveness. I'm sorry.
-
-Even after i do my best, i'm still not enough to treat you right, it's always been my biggest ick too to make you feel this way.
+I made this little thing for you, not just because i only seek for your forgiveness. 
+I'm sorry. Even after i do my best, i'm still not enough to treat you right, it's always been my biggest ick too to make you feel this way.
 """
 
 ISI_SURAT = """
