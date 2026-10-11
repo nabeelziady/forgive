@@ -23,7 +23,7 @@ I'm sorry, i thought i managed to do it right, i thought i really get better, i 
 
 I wont get defensive on myself. I really wanna be the best for you, not anybody else. It's just i always try my best even until now, to make everything set.
 
-I really hope, that you'd stay with me. Choose me. Believe in me again. Thought i may be failed many times already. I know it's really tiring for you too, but trust me that it's tiring for me too. Yet, i still keep on trying and trying even though it's never easy. I'm sick of myself for hurting you lot of times.
+I really hope, that you'd stay with me. Choose me. Believe in me again. Thought i may be failed many times already. I know it's really tiring for you too, but trust me that it's tiring for me too. Yet[...]
 """
 
 PENUTUP_SURAT = """
@@ -35,6 +35,7 @@ If you're ready, let's talk about it again, about how we should manage, how we s
 Thank you for reading my words.
 With Love,
 Buyi ♡
+def
 """
 
 KENANGAN = [
@@ -64,6 +65,22 @@ PESAN_TOMBOL = "Yes ♡"
 # ============================================================
 # BAGIAN TAMPILAN - tidak perlu diubah untuk mengganti pesan.
 # ============================================================
+
+
+def resolve_photo_path(filename: str) -> Path:
+    base_dir = Path(__file__).resolve().parent
+    candidates = [
+        base_dir / filename,
+        base_dir / "images" / filename,
+        Path(filename),
+    ]
+
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+
+    return candidates[0]
+
 
 st.set_page_config(
     page_title=JUDUL,
@@ -128,7 +145,7 @@ cols = st.columns(3)
 for i, item in enumerate(KENANGAN):
     with cols[i]:
         st.markdown('<div class="card">', unsafe_allow_html=True)
-        photo_path = Path(item["foto"])
+        photo_path = resolve_photo_path(item["foto"])
         if photo_path.exists():
             st.image(str(photo_path), use_container_width=True)
         else:
@@ -261,4 +278,3 @@ components.html("""
 
 st.write("")
 st.caption("Made With Love. ♡")
-
